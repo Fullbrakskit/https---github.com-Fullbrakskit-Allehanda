@@ -85,7 +85,7 @@ textarea {
    ========================================================================== */
 
    .container > div {
-  background-color: rgba(0, 150, 255, 0.15);
+  background-color: rgba(0, 150, 255, 0.40);
   border: 2px dashed #0096ff;
   min-height: 80px;
   padding: 10px;
@@ -93,14 +93,14 @@ textarea {
 
    .container {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
     gap: 10px;
    }
 
    .titel {
     grid-row: 1 / 1;
-    grid-column: 1 / 7;
+    grid-column: 1 / 5;
    }
 
 /* ==========================================================================
