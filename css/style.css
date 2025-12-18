@@ -81,11 +81,22 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Author's custom styles 168,220,171 snygg grön
    ========================================================================== */
 
-  
+  .logotyp {
+    display: flex;
+    height: auto;
+    width: 700px;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 
+  .inloggning {
+    display: flex;
+    
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
